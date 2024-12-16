@@ -1,0 +1,24 @@
+.work_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 12px;
+    padding: 2rem 4rem;
+    /* background: linear-gradient(180deg, #010722, black); */
+    background-color:#000312;
+}
+
+@media only screen and (max-width: 780px) { 
+    .work_container {
+        gap: 2rem;
+        font-size: 10px;
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 550px) { 
+    .work_container {
+        padding: 0rem 2rem 1rem 2rem;
+    }
+}

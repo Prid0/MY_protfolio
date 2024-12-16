@@ -1,0 +1,64 @@
+.Acard {
+  height: 300px;
+  width: 260px;
+  margin: 2rem 5px;
+  border-radius: 2rem;
+  padding: 2px;
+  background: linear-gradient(0deg, #89009b, #00ccff);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+.Acard:hover {
+  box-shadow: 2px 2px 20px 0px #334081;
+}
+
+.Ainner_card {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  flex-direction: column;
+  padding: 3rem;
+  /* background-color: #010722; */
+  background: linear-gradient(180deg, #010722 70%, #180018);
+}
+
+.Acard_img {
+  width: 40%;
+  height: auto;
+}
+
+.Acard_img img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 780px) {
+  .Acard {
+    height: 285px;
+    width: 235px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Acard {
+    min-width: 100%;
+    height: 250px;
+  }
+  .Ainner_card {
+    padding: 2.4rem;
+  }
+  .Acard_img {
+    width: 35%;
+  }
+
+  .Acard_text {
+    display: flex;
+    gap: 6px;
+    font-size: 15px;
+  }
+}

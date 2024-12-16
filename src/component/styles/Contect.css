@@ -1,0 +1,122 @@
+.contect_container {
+  padding: 1rem 4rem 4rem 4rem;
+  position: relative;
+  overflow: hidden;
+  /* background: linear-gradient(180deg, #000312 50%, black); */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  padding: 5rem 2rem;
+}
+.bg_video {
+  width: auto;
+  height: min-content;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.contect_left_side {
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.contect_left_side p {
+  font-size: 20px;
+  color: #b1b1b1;
+}
+
+.contect_left_side h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+.form_container {
+  max-height: 30rem;
+  width: 48%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: white;
+  background-color: #01072278;
+  box-shadow: 0px 8px 10px 0px #2b335329;
+  position: relative;
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+label {
+  color: white;
+  font-weight: 700;
+}
+
+input,
+textarea,
+button {
+  background-color: #141c3cb5;
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+textarea::placeholder {
+  color: #7b82a5;
+}
+input::placeholder {
+  color: #7b82a5;
+}
+button {
+  width: 7rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 0px 8px 20px 1px black;
+}
+
+@media only screen and (max-width: 780px) {
+  .contect_container {
+    flex-direction: column;
+  }
+  .form_container {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contect_container {
+    padding: 1rem 2rem 5rem 2rem;
+    min-height: 70vh;
+  }
+  .form_container {
+    width: 100%;
+    padding: 1.4rem;
+  }
+
+  .contect_left_side p {
+    font-size: 15px;
+  }
+
+  .contect_left_side h1 {
+    font-size: 2.5rem;
+  }
+
+  form {
+    gap: 0.8rem;
+  }
+}

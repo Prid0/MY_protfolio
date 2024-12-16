@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:black;
+  font-family: "DM Sans", sans-serif;
+}
+
+section {
+  min-height: auto;
+  white:100%;
+  /* scroll-snap-aline: centre; */
+}
+
+a {
+  text-decoration: none;
+  color:white
+}

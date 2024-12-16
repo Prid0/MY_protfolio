@@ -1,0 +1,31 @@
+.projrct_container{
+    padding: 5rem 2rem;
+    background-color:#000312 ;
+}
+
+.top_section{
+    padding: 0 0 4rem 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.card_containet{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}  
+
+@media only screen and (max-width: 780px) {    
+    .top_section{
+        padding: 0 0 1rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {    
+    .card_containet{
+        padding: 0;
+    } 
+  }

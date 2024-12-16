@@ -1,0 +1,65 @@
+.tetimonial_card {
+  height: auto;
+  max-width: 285px;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  padding: 1.6rem;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(180deg, #3045b761, #000000c4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor:pointer;
+}
+.tetimonial_card:hover {
+  box-shadow: 2px 2px 20px 0px #334081;
+}
+
+.card_top h2 {
+  font-size: 6rem;
+  line-height: 1;
+  height: 4rem;
+}
+
+.card_top p {
+  color: #b1b1b1;
+}
+
+.card_bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.card_bottom_left {
+  width: 74%;
+  text-transform: capitalize;
+  cursor:pointer;
+}
+
+.card_bottom_left h4 span {
+  color: #517cc5;
+}
+.card_bottom_left p {
+  color: #b1b1b1;
+}
+
+.card_bottom_right {
+  width: 26%;
+  height: auto;
+  padding: 5px;
+}
+
+.card_bottom_right img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 550px) {
+  .tetimonial_card {
+    max-width: 90%;
+  }
+}

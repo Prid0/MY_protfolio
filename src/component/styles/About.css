@@ -1,0 +1,43 @@
+.about_container{
+    padding: 5rem 2rem;
+    /* background: linear-gradient(180deg, black 45%, #010724); */
+    background: linear-gradient(180deg, black 45%, #000312);
+}
+
+.top_section{
+    padding: 0 0 4rem 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Acard_containet{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    flex-wrap: wrap;
+}  
+
+@media only screen and (max-width: 780px) {    
+    .about_container{
+        padding: 4.5rem 2.2rem;
+    }
+    .top_section{
+     flex-direction:column;
+        padding: 0;
+        padding-bottom:1rem;
+    }
+    
+    .Acard_containet{
+        padding:0 1rem;
+    }  
+  }
+
+  @media only screen and (max-width: 550px) {    
+    .Acard_containet{
+        padding:0;
+    }  
+  }
+
+  
