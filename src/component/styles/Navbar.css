@@ -82,9 +82,7 @@
     width: 100%;
     justify-content: space-between;
   }
-  .logo {
-  }
-
+  
   .brand_name {
     padding-left: 1rem;
     font-size: 1.1rem;
@@ -95,7 +93,6 @@
     font-weight: 400;
   }
   .link_container.open {
-    /* display: none; */
     opacity: 0;
     height: 0px;
     padding: 0;
