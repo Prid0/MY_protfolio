@@ -1,22 +1,22 @@
 export const TestimonialCardData = [
   {
     openion:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga recusandae hic aspernatur vitae! Iure eos nobis excepturi repudiandae maxime!",
-    name: "markus J",
+      "Priyan delivered a visually stunning and functional website. Their attention to detail, timely delivery, and excellent communication made the entire process seamless and enjoyable",
+    name: "Sample",
     palce: "newyork ,timesquare",
     img: "/circle2.png",
   },
   {
     openion:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga recusandae hic aspernatur vitae! Iure eos nobis excepturi repudiandae maxime! projetc 2",
-    name: "berlin",
+      "We’re thrilled with the modern, responsive website priyan vishwakarma created. Their creativity, technical skills, and professionalism exceeded expectations, delivering a perfect solution for our business.",
+    name: "Sample",
     palce: "london",
     img: "/circle2.png",
   },
   {
     openion:
-      "project 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fuga recusandae hic aspernatur vitae! Iure eos nobis excepturi repudiandae maxime!",
-    name: "Mohit rv",
+      "Working with Priyan Vishwakarma was a fantastic experience. They built a user-friendly, innovative website that perfectly captured our brand and vision. Highly recommended for any project!",
+    name: "Sample",
     palce: "newyork ,timesquare",
     img: "/circle2.png",
   },
