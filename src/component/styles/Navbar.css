@@ -92,6 +92,13 @@
     color: red;
     font-weight: 400;
   }
+
+  .logo {
+    width: 30px; 
+    height: 20px; 
+    background-position: center;
+  }
+
   .link_container.open {
     opacity: 0;
     height: 0px;
@@ -142,6 +149,7 @@
 .hamburger.cross span:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -153,4 +161,10 @@
   .link_container {
     line-height: 6px;
   }
+  .logo {
+    width: 25px;
+    height: 15px;
+  }
 }
+
+
