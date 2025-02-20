@@ -4,10 +4,14 @@ import { motion } from 'framer-motion'
 function Card({ Tname, img, i }) {
   return (
     <motion.div className="card"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.2, delay: i * 0.2 }}
-      viewport={{ once: true }}
+      initial={{ opacity: 0, scale: 0.6 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.5,
+        ease: [0.6, 0, 0.3, 0.8],
+        delay: i * 0.2
+      }}
+      viewport={{ amount: 0.2, once: true }}
     >
       <div className="inner_card">
         <div className="card_img">
