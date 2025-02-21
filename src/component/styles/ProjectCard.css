@@ -15,17 +15,17 @@
 
 .Pinner_card {
   height: 100%;
-    width: 100%;
-    border-radius: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: start;
-    text-transform: capitalize;
-    flex-direction: column;
-    padding: 0.5rem;
-    background-color: #010722;
-    background: linear-gradient(180deg, #010722 70%, #180018);
+  width: 100%;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  text-transform: capitalize;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: #010722;
+  background: linear-gradient(180deg, #010722 70%, #180018);
 }
 
 .Pcard_img {

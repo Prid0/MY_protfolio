@@ -23,7 +23,7 @@ function TextContainer({ intro, title, para, img }) {
           initial={{ opacity: 0, filter: "blur(4px)" }} 
           whileInView={{ opacity: 1, filter: "blur(0px)" }} 
           transition={{ duration: 0.7, delay: 0.7 }}
-          viewport={{ amount: 0.4, once: true }}
+          viewport={{ amount: 0.3, once: true }}
         >
 
           <p>{para}</p>

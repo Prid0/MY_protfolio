@@ -1,6 +1,7 @@
 .projrct_container{
     padding: 5rem 2rem;
     background-color:#000312 ;
+    overflow:hidden;
 }
 
 .top_section{
@@ -16,6 +17,7 @@
     justify-content: space-evenly;
     padding-bottom: 2rem;
     flex-wrap: wrap;
+    position: relative; 
 }  
 
 @media only screen and (max-width: 780px) {    

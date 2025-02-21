@@ -1,33 +1,34 @@
-import React from 'react';
-import '../component/styles/ProjectCard.css';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
+import "../component/styles/ProjectCard.css";
 
-function ProjectCard({ img, title, discription, tool1, tool2, tool3, i, link }) {
+function ProjectCard({ img, title, discription, tool1, tool2, tool3, link, i }) {
+    const isMobile = window.innerWidth < 768; // Check if device is mobile
 
     return (
         <motion.div
             className="project_card"
-            initial={{ opacity: 0, scale: 0.5, filter: "blur(5px)" }}
-            whileInView={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+            initial={{ 
+                opacity: 0, 
+                filter: "blur(10px)", 
+                x: isMobile ? -260 : 0
+            }} 
+            whileInView={{ 
+                opacity: 1, 
+                filter: "blur(0px)", 
+                x: 0  
+            }} 
             transition={{
-                duration: 0.7,
-                ease: [0.8, 0, 0.1, 1],
-                delay: i * 0.4
+                duration: 0.5,
+                delay: i ? i * 0.2 : 0,
             }}
-            viewport={{ amount: 0.3, once: true }}
+            viewport={{ amount: 0.1, once: true }}
         >
             <div className="Pinner_card">
                 <div className="Pcard_img" style={{ backgroundImage: `url(${img})` }}>
                     <div className="demo_btn">
                         <div className="round"></div>
-                        <a
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Demo
-                        </a>
-
+                        <a href={link} target="_blank" rel="noopener noreferrer">Demo</a>
                     </div>
                 </div>
                 <div className="content">
