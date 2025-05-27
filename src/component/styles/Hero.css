@@ -76,7 +76,8 @@
 
 @media only screen and (max-width: 780px) {
   .hero_container {
-    height: 90vh;
+    height: 68vh;
+    padding: 0 2.5rem;
   }
   .left_side {
     width: 80%;
@@ -95,9 +96,10 @@
 
 @media only screen and (max-width: 550px) {
   .hero_container {
-    height: 70vh;
     flex-direction:column;
-  }
+    padding: 0;
+    }
+  
   .left_side {
     margin-top:4rem;
     width: 90%;

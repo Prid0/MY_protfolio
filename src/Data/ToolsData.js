@@ -39,5 +39,13 @@ export const ToolsData = [
       img: "./python.png",
       Tname: "Python",
     },
+    {
+      img: "./Csharp.png",
+      Tname: "C#",
+    },
+    {
+      img: "./dotnet.png",
+      Tname: ".net",
+    },
   ];
   

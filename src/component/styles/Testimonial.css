@@ -1,5 +1,5 @@
  .test_container{
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 2rem 8rem 4rem 8rem;
     display: flex;
     justify-content: center;
     background: linear-gradient(180deg, #000312 60%, black);
@@ -31,13 +31,23 @@
     padding-bottom: 2rem;
  }
 
+ @media only screen and (max-width: 780px) {
+    .test_container{
+        padding: 2rem 4rem 4rem 4rem;     
+    }
+ }
+
  @media only screen and (max-width: 550px) {
+    .test_container{
+        padding: 1rem 2rem;
+        
+    }
     .tets_top {
         height: 12rem;
         padding-left: 2rem;
     }    
- .test_bottom {
+    .test_bottom {
     padding-top: 9.2rem;
     padding-bottom:0;
-}
+    }
  }

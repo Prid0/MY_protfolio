@@ -11,7 +11,7 @@ function Card({ Tname, img, i }) {
         ease: [0.6, 0, 0.3, 0.8],
         delay: i * 0.2
       }}
-      viewport={{ amount: 0.2, once: true }}
+      viewport={{ amount: 0.1, once: true }}
     >
       <div className="inner_card">
         <div className="card_img">

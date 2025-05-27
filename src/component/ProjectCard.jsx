@@ -11,16 +11,14 @@ function ProjectCard({ img, title, discription, tool1, tool2, tool3, link, i }) 
             initial={{ 
                 opacity: 0, 
                 filter: "blur(10px)", 
-                x: isMobile ? -260 : 0
             }} 
             whileInView={{ 
                 opacity: 1, 
-                filter: "blur(0px)", 
-                x: 0  
+                filter: "blur(0px)",  
             }} 
             transition={{
                 duration: 0.5,
-                delay: i ? i * 0.2 : 0,
+                delay: i ? i * 0.1 : 0,
             }}
             viewport={{ amount: 0.1, once: true }}
         >

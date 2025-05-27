@@ -5,14 +5,15 @@ function AboutCard({ img, Tname, Bname, i }) {
   return (
     <motion.div
       className="Acard"
-      initial={{ opacity: 0, scale: 0.6 }}
+      initial={{ opacity: 0, scale: 0.7 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{
-        duration: 0.7,
-        ease: [0.6, 0, 0.3, 0.8],
+        duration: 0.6,
+        ease: [0.25, 0.1, 0.25, 1], 
         delay: i * 0.3
       }}
       viewport={{ once: true }}
+
     >
       <div className="Ainner_card">
         <div className="Acard_img">

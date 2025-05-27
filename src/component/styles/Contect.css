@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   min-height: 100%;
-  padding: 5rem 2rem;
+  padding: 5rem 5.5rem;
 }
 .bg_video {
   width: auto;
@@ -92,20 +92,22 @@ button:hover {
 @media only screen and (max-width: 780px) {
   .contect_container {
     flex-direction: column;
+    flex-direction: column;
+    padding: 5rem 4rem;
   }
   .form_container {
-    width: 65%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .contect_container {
-    padding: 1rem 2rem 5rem 2rem;
+    padding: 2rem 2rem 5rem 2rem;
     min-height: 70vh;
   }
   .form_container {
     width: 100%;
-    padding: 1.4rem;
+    padding: 1.2rem;
   }
 
   .contect_left_side p {

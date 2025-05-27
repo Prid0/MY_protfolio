@@ -15,7 +15,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 2rem;
+    padding: 0rem 0.8rem 1rem 0.8rem;
     flex-wrap: wrap;
     position: relative; 
 }  
